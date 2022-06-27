@@ -112,7 +112,7 @@ hr {
 }
 .container-items {
     align-items: center;
-    padding: 0 15px 0 15px;
+    padding: 0 20px 0 20px;
     margin-top: 20px;
     padding-left: 50px;
 }
@@ -136,7 +136,6 @@ hr {
     padding: 5px;
 }
 .setting {
-    height:auto;
     border-radius: 15px;
     box-shadow: 0 0 0 1px black;
     display: block;
