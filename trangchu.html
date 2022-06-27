@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mob's Store</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='shortcut icon' href="images/logooooo.jpg">
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar ">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="trangchu.html"><img class="img-logo" src="images/logo2.jpg" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="gioithieu.html">Giới Thiệu</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản Phẩm <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="jjk.html"><b>Jujutsu Kaisen</b></a></li>
+                                <li><a href="op.html"><b>One Piece</b></a></li>
+                                <li><a href="kny.html"><b>Kimetsu No Yaiba</b></a></li>
+                                <li><a href="tr.html"><b>Tokyo Revengers</b></a></li>
+                                <li><a href="naruto.html"><b>Naruto</b></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="lienhe.html">Liên Hệ</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><div class="img-language"><img src="images/tải xuống.png" height="30px" width="30px" alt=""><span class="caret"></span></div></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><b>Vietnamese</b></a></li>
+                                <li><a href="#"><b>English</b></a></li>
+                                <li><a href="#"><b>Japanese</b></a></li>
+                                <li><a href="#"><b>Chinese</b></a></li>
+                            </ul>
+                            <li><a href="dangnhap.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="space-top"></div>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide first">
+                <img src="images/banner.jpg" style="max-width:100%;height:auto;border-radius: 10px;" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="images/banner-test.jpg" style="max-width:100%;height:auto;border-radius: 10px;" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' +counter).checked = true;
+            counter++;
+            if (counter >2) {
+                counter =1;
+            }
+        }, 4000);
+    </script>
+
+    <div class="space-top"></div>
+
+    <div class="containerr">
+        <div class="list-item">
+            <h3>Chào Mừng Bạn Đến Với Mob's Store</h3>
+            <p class="text">Đặt hàng,mua hàng tại Mob's Store,chúng tôi sẽ luôn mang đến cho bạn trải nghiệm tuyệt vời và bạn sẽ cảm nhận được nhiều hơn nữa trên Mob's Store</p>
+            <p class="text"><a class="log-in" href="dangnhap.html"><font color ="red" >Đăng nhập</font></a> hoặc <a class="registration" href="dangky.html"><font color ="red" >Đăng ký</font></a> để trải nghiệm !</p>
+            <hr style="width: 80% ;">
+        </div>
+        
+        <div class="space-top"></div>
+
+        <div class="list-item">
+            <div class="container-heading">
+                <h3>Gợi Ý Cho Bạn</h3>
+                <p class="text">Hãy cùng chúng tôi khám phá thế giới anime kì bí bạn nhé!!!!</p>
+            </div>
+            <div class="container-list-item">
+                <div class="container-items">
+                    <a href="jjk.html" title="Jujutsu Kaisen" class="setting">
+                        <img class="container-img" src="images/jjkk.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Jujutsu Kaisen</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="op.html" title="One Piece" class="setting">
+                        <img class="container-img" src="images/op.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">One Piece</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="kny.html" title="Kimetsu No Yaiba" class="setting">
+                        <img class="container-img" src="images/kny.png" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Kimetsu No Yaiba</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="tr.html" title="Tokyo Revenger" class="setting">
+                        <img class="container-img" src="images/tr.png" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Tokyo Revenger</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="naruto.html" title="Naruto" class="setting">
+                        <img class="container-img" src="images/naruto.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Naruto</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-top"></div>
+
+        <div class="list-item">
+            <div class="container-heading">
+                <h3>Sản Phẩm Nổi Bật</h3>
+                <p class="text">Được yêu thích nhất trong cửa hàng của chúng tôi!!</p>
+            </div>
+            <div class="container-list-item">
+                <div class="container-items">
+                    <a href="luffy-order.html"  class="setting">
+                        <img class="container-img" src="images/luffy.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Monkey D.Luffy</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="hokahe5.html"  class="setting">
+                        <img class="container-img" src="images/hokage5.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Hokage Đệ Ngũ</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="yuta.html"  class="setting">
+                        <img class="container-img" src="images/yuta.png" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Okkotsu Yuta</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="gojo.html"  class="setting">
+                        <img class="container-img" src="images/satoru.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Gojo Satoru</p>
+                    </a>
+                </div>
+                <div class="container-items">
+                    <a href="rengoku.html"  class="setting">
+                        <img class="container-img" src="images/Rengoku Kyoujurou.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Viêm Trụ</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-top"></div>
+
+        <div class="list-item">
+            <div class="container-heading">
+                <h3>Sắp Ra Mắt</h3>
+                <p class="text"><a href=""><font color ="red" >Đặt hàng</font></a> sớm để nắm lấy mô hình đẹp sớm nhất ngay nào!</p>
+            </div>
+            <div class="container-list-item">
+                <div class="container-items">
+                    <a href=""  class="setting">
+                        <img class="container-img" src="images/roger.png" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Gol D.Roger</p>
+                    </a>
+                    <a href="roger.html"><center><button class="container-button"><p class="buy"> Đặt Hàng</p></button></center></a>
+                </div>
+                <div class="container-items">
+                    <a href=""  class="setting">
+                        <img class="container-img" src="images/hokage2.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Hokage Đệ Nhị</p>
+                    </a>
+                    <a href="hokagedenhi.html"><center><button class="container-button"><p class="buy"> Đặt Hàng</p></button></center></a>
+                </div>
+                <div class="container-items">
+                    <a href=""  class="setting">
+                        <img class="container-img" src="images/maki.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Zenin Maki</p>
+                    </a>
+                    <a href="maki.html"><center><button class="container-button"><p class="buy"> Đặt Hàng</p></button></center></a>
+                </div>
+                <div class="container-items">
+                    <a href="" class="setting">
+                        <img class="container-img" src="images/1.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Mikey</p>
+                    </a>
+                    <a href="mikey.html"><center><button class="container-button"><p class="buy"> Đặt Hàng</p></button></center></a>
+                </div>
+                <div class="container-items">
+                    <a href="" class="setting">
+                        <img class="container-img" src="images/inosuke.jpg" style="max-width:100%;height:auto;" alt=""> 
+                        <p class="note">Hashibira Inosuke</p>
+                    </a>
+                    <a href="inosuke .html"><center><button class="container-button"><p class="buy"> Đặt Hàng </p></button></center></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-top"></div>
+
+        <div class="list-item">           
+            <div class="container-heading">
+                <h3>Ưu Đãi Độc Quyền</h3>
+                <p class="text">Chỉ có duy nhất tại MOB'S STORE</p>
+            </div>
+            <div class="container-list-item">
+                <div class="container-items-uudai">
+                    <a href=""><img class="sale-img" src="images/uadai2.jpg" style="max-width:100%;height:auto;" alt=""></a>
+                </div>
+                <div class="container-items-uudai">
+                    <a href=""><img class="sale-img" src="images/sale2.jpg" style="max-width:100%;height:auto;" alt=""></a>
+                </div>
+                <div class="container-items-uudai">
+                    <a href=""><img class="sale-img" src="images/uadai3.jpg" style="max-width:100%;height:auto;" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-top"></div>
+
+        <div class="list-item">           
+            <div class="container-heading">
+                <h3>Hướng Dẫn Sử Dụng</h3>
+                <p class="text">Mua hàng nhanh,thanh toán đơn giản,dễ dang sử dụng chỉ với một cái click chuột</p>
+            </div>
+            <div class="container-list-item">
+                <div class="container-items-huongdan">
+                    <a href=""><img class="sale-img" src="images/theme1.jpg" style="max-width:100%;height:auto;"alt=""></a>
+                </div>
+                <div class="container-items-huongdan">
+                    <a href=""><img class="sale-img" src="images/theme2.png" style="max-width:100%;height:auto;" alt=""></a>
+                </div>
+                <div class="container-items-huongdan">
+                    <a href=""><img class="sale-img" src="images/theme3.png" style="max-width:100%;height:auto;" alt=""></a>
+                </div>
+                <div class="container-items-huongdan">
+                    <a href=""><img class="sale-img" src="images/theme5.png" style="max-width:100%;height:auto;" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-top"></div>
+
+        <div class="About">
+            <div class="about-us">
+                <div class="about-us-list">
+                    <a href=""><img class="about-img" src="images/logo2.png"alt=""></a>
+                    <div class="container-heading">
+                        <h3> Tìm Kiếm Mô Hình Đẹp Với Giá Vừa Phải</h3>
+                        <p class="text">Mob's Store là một trong những shop hàng đầu trong lĩnh vực Manga và Anime ở Việt Nam.
+                            Ngoài các sản phẩm có sẵn, cửa hàng cũng có dịch vụ Pre-Order các mẫu PVC mới phát hành,
+                             các mẫu figure giới hạn được làm thủ công bằng chất liệu Resin. Chi tiết các bạn vui 
+                            lòng liên hệ email hoặc số điện thoại của Mob's Store để biết thêm chi tiết nhé.</p>
+                    </div>
+                    
+                    <div>
+                        <h3>Tải Ứng Dụng </h3>
+                        <div class="about-list-img">
+                            <div class="about-item-img">
+                                <a href=""><img class="code" src="images/qr-code.jpg" style="max-width:100%;height:auto;" alt=""></a>
+                            </div>
+                            <div class="about-item-img2">
+                                <a href=""><img class="appstore" src="images/appstore.png" style="max-width:100%;height:auto;" alt=""></a>
+                                <a href=""><img class="ggplay" src="images/ggplay.png" style="max-width:100%;height:auto;" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-us-list">
+                    <img class="mobile" src="images/moblie.jpg" style="max-width:100%;" alt="">
+                </div>
+            </div>
+        </div>
+        
+        
+            
+    </div>
+
+    <div class="space-top"></div>
+
+    <div class="footer">
+        <div>
+            <div class="footer-edit">
+                <div class="footer-list-information">
+                    <ul class="list">
+                        <h3> Về Chúng Tôi</h3>
+                        <a href="gioithieu.html"><li class="item-footer">Giới Thiệu</li></a> 
+                        <a href=""><li class="item-footer">Dịch Vụ</li></a> 
+                        <a href="tel:+84365694027"><li class="item-footer">Điện thoại: 036.569.4027</li></a> 
+                        <a href="mailto:hoanglv.21da@vku.udn.vn"><li class="item-footer">Email: hoanglv.21da@vku.udn.vn</li></a> 
+                    </ul>
+                </div>
+                <div class="footer-list-information">
+                    <ul class="list">
+                        <h3>Danh Mục Được Yêu Thích</h3>
+                        <a href="jjk.html"><li class="item-footer">Jujutsu Kaisen</li></a> 
+                        <a href="kny.html"><li class="item-footer">Kimetsu No Yaiba</li></a> 
+                        <a href="tr.html"><li class="item-footer">Tokyo Revenger</li></a> 
+                        <a href="op.html"><li class="item-footer">One Piece</li></a> 
+                    </ul>
+                </div>
+                <div class="footer-list-information">
+                    <ul class="list">
+                        <h3>Sản Phẩm Được Yêu Thích</h3>
+                        <a href="yuta.html"><li class="item-footer">Okkotsu Yuta</li></a> 
+                        <a href="gojo.html"><li class="item-footer">Gojo Satoru</li></a> 
+                        <a href="rengoku.html"><li class="item-footer">Rengoku</li></a> 
+                        <a href="luffy-order.html"><li class="item-footer">Monkey D.Luffy</li></a> 
+                    </ul>
+                </div>
+                <div class="footer-list-information">
+                    <ul class="list">
+                        <h3>Hỗ Trợ Khách Hàng</h3>
+                        <a href="https://zalo.me/0365694027"><li class="item-footer">Liên Hệ</li></a> 
+                        <a href="hdmh.html"><li class="item-footer">Hướng Dẫn Mua Hàng</li></a> 
+                        <a href=""><li class="item-footer">Trả Hàng</li></a> 
+                        <a href=""><li class="item-footer">Chính Sách Bảo Mật</li></a>         
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="lienket">
+                <div class="list-lkkkkk">
+                    <div class="list-lk">
+                        <p class="dcm">Copyright © 2021 Mob's Store, All Rights Reserved</p> 
+                    </div>
+                    <div class="list-lk-img">
+                       <a href="https://www.facebook.com/profile.php?id=100030240153439" target="_blank"> <img class="lk-img" src="images/fbb.png" style="max-width:100%;height:auto;" alt=""> </a>
+                       <a href="https://www.instagram.com/mob.23_/?hl=en" target="_blank"> <img class="lk-img"  src="images/inss.png" style="max-width:100%;height:auto;" alt=""> </a>
+                       <a href="https://zalo.me/0365694027" target="_blank"> <img class="lk-img"  src="images/zaloo.png" style="max-width:100%;height:auto;" alt=""> </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

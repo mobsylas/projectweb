@@ -1,0 +1,1145 @@
+body {
+    font-family: tahoma;
+    font-size: 14px;
+    margin: auto;
+}
+div {
+    display: block;
+}
+* {
+    box-sizing: inherit;
+}
+.header {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.144);
+    border-radius: 15px;
+}
+.navbar {
+    width: 90%;
+    margin: auto;
+}
+.img-logo {
+
+    height: 55px;
+    width: 170px;
+}
+.icon-bar {
+    background-color: black;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+a:hover {
+    color: red;
+}
+.nav {
+    margin-top: 17px;
+}
+.slider {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    width: 510%;
+    height: 390px;
+}
+.slides input {
+    display: none;
+}
+
+.slide {
+    transition: 1s;
+    width: 20%;
+}
+.manual-btn {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background: black;
+}
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+.space-top {
+    margin-top: 30px;
+}
+.banner {
+    width: 90%;
+    margin: auto;
+}
+.img-banner {
+    border-radius: 20px;
+}
+h3 {
+    font-weight: 550;
+    font-size: 1.9rem;
+}
+.text {
+    font-size: 15px;
+}
+hr {
+    border-top: 1px solid rgba(94, 90, 90, 0.301);
+}
+.list-item {
+    width: 85%;
+    margin: auto;
+}
+.container-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+.container-items {
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.container-items-uudai {
+    align-items: center;
+    padding: 0 40px 0 40px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.container-items-huongdan {
+    align-items: center;
+    padding: 0 10px 0 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.container-img {
+    border-radius: 15px;
+}
+.note {
+    text-align: center;
+    padding: 5px;
+}
+.setting {
+    height:auto;
+    border-radius: 15px;
+    box-shadow: 0 0 0 1px black;
+    display: block;
+}
+.container-button {
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(252, 232, 236);
+}
+.buy {
+    padding: 5px;
+}
+.sale-img {
+    border-radius: 10px;
+}
+.About {
+    width: 80%;
+    margin: auto;
+}
+.about-img {
+    height: 80px;
+    width: 250px;
+    margin-top: 20px;
+}
+.about-list-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-item-img {
+    width: 33%;
+}
+.about-item-img2 {
+    margin-top: 20px;
+    width: 30%;
+    padding-left: 20px;
+}
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-us-list {
+    width: 50%;
+}
+.code {
+    border-radius: 15px;
+}
+.appstore {
+    border-radius: 15px;
+}
+.ggplay {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.mobile {
+    height: 600px;
+    width: 600px;
+    padding-left:150px;
+}
+.footer {
+    background-color: #eb6c4c;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.144);
+    width: 100%;
+    margin: auto;
+}
+.footer-edit {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.footer-list-information {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    margin: auto;
+}
+ul li {
+    display: block;
+}
+.item-footer {
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.dcm {
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 60px;
+}
+.lienket {
+    width: 82%;
+    margin: auto;
+    margin-top: 5px;
+}
+.list-lkkkkk {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-lk {
+    width: 80%;
+    margin: auto;
+}
+.list-lk-img {
+    width:20%;
+    margin: auto;
+}
+.lk-img {
+    border-radius: 5px;
+    width: 15%;
+}
+.img-language {
+    margin-top: -5px;
+}
+.gioithieu {
+    width: 100%;
+    margin: auto;
+}
+.welcome-gt {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: #eb6c4c;
+}
+.gt-text {
+    width: 85%;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+.gioithieu-list  {
+    width: 50%;
+    margin: auto;
+}
+h4 {
+    font-weight: 600;
+    font-size: 15px;
+}
+.hello {
+    width: 100%;
+    margin: auto;
+    background-color: #eb6c4c;
+}
+.hihi {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+.login {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    width: 30%;
+    height: 600px;
+    padding: 10px;
+    margin-top: -100px;
+    background-color: white;
+}
+.form-dki {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    width: 30%;
+    height: 800px;
+    padding: 10px;
+    margin-top: -100px;
+    background-color: white;
+}
+.dichvu {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.dichvu-list-item {
+    width: 40%;
+    margin: auto;
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+}
+.dichvu-list-item1 {
+    width: 35%;
+    margin: auto;
+    padding: 0 10px 0 10px;
+    margin-top: 5px;
+}
+h2 {
+    font-weight: 550;
+    font-size: 25px;
+}
+h3 {
+    font-weight: 550;
+    font-size: 18px;
+}
+.login-input {
+    width: 85%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.login-btn {
+    border-radius: 30px;
+    background-color: #eb6c4c;
+    color: white;
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+}
+.login-btn2 {
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 85%;
+    height: 50px;
+}
+.login-text {
+    margin-top: 10px;
+}
+.class-click {
+    color: red;
+}
+.lienhe {
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    background-color: #eb6c4c;
+}
+.lienhe-hello {
+    padding: 40px;
+    color: white;
+}
+.map {
+    width: 85%;
+    margin: auto;
+}
+h1 {
+    font-weight: 550;
+    font-size: 25px;
+}
+.product {
+    width: 100%;
+    margin: auto;
+}
+.product-list {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-items {
+    box-shadow: 0 0 0 1px rgb(12, 10, 10);
+    height: 400px;
+    width: 15%;
+    padding: 10px;
+}
+.danhmuc {
+    margin-top: 20px;
+}
+.product-items2 {
+    width: 80%;
+    margin: auto;
+}
+.jjk-list-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.jjk-item {
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+}
+.jjk-img {
+    border-radius: 15px;
+}
+.jjk-name {
+    margin-top: 5px;
+}
+.jjk-price {
+    margin-top: -5px;
+}
+.jjk-text {
+    width: 95%;
+    margin: auto;
+    font-size: 16px;
+}
+.danhmuc {
+    font-size: 20px;
+    font-weight: 550;
+}
+.header-option {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 0 1px black;
+}
+.option-edit {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-h3 {
+    margin-top: 15px;
+}
+.nhap {
+    width: 30%;
+    margin: auto;
+    margin-top: 7px;
+    height: 30px;
+    border-radius: 10px;
+}
+.list2 {
+    margin: auto;
+    font-size: 18px;
+    margin-top: 12px;
+    border-radius: 20px;
+}
+.name {
+    height: 150px;
+    width: 100%;
+    background-color: #eb6c4c;
+}
+.name-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 60px;
+}
+.order {
+    width: 100%;
+    margin: auto;
+}
+.order-list {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.order-list-item {
+    width: 45%;
+}
+.edit-order {
+    width: 10%;
+}
+.btn-order {
+    background-color: #eb6c4c;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 40px;
+}
+.mota {
+    margin-top: 40px;
+}
+.hdmh {
+    background-color: #eb6c4c;
+    border-radius: 20px;
+    color: white;
+    width: 70%;
+    padding: 10px;
+    padding-left: 20px;
+}
+.order-login {
+    box-shadow: 0 0 0 2px rgb(223, 211, 211);
+    border-radius: 10px;
+    padding: 10px;
+    height: 180px;
+    margin-top: 50px;
+}
+.order-text {
+    margin-top: 20px;
+}
+.price-order {
+    box-shadow: 0 0 0 1px rgb(223, 211, 211);
+    border-radius: 10px;
+    width: 60%;
+    height: 150px;
+    padding: 10px;
+}
+.btn-order2 {
+    background-color: #eb6c4c;
+    color: white;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    height: 40px;
+}
+.btn-order3 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    height: 40px;
+    margin-top: 20px;
+}
+.tuvan {
+    margin-top: 50px;
+    box-shadow: 0 0 0 1px rgb(223, 211, 211);
+    border-radius: 10px;
+    width: 75%;
+    height: 340px;
+    padding: 10px;
+}
+.input-order {
+    height: 40px;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.goiy-order {
+    width: 100%;
+    height: 480px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px rgba(216, 181, 181, 0.322);
+    background-color: rgba(216, 181, 181, 0.322);;
+}
+.goiy-order-edit {
+    width: 70%;
+    margin: auto;
+}
+.hd {
+    width: 70%;
+    margin: auto;
+}
+h1 {
+    font-size: 35px;
+}
+@media screen and (max-width : 1500px){
+    .container-items {
+        width : 18%;
+        padding: 0 15px 0 15px;
+        margin-top: 5px;
+    }
+    .welcome-gt {
+        width: 100%;
+        height: 150px;
+        margin: auto;
+        background-color: #eb6c4c;
+    }
+    .gt-text {
+        width: 85%;
+        margin: auto;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+    }
+    .img-gt {
+        width: 130px;
+        height: 130px;
+    }
+    .container-items-uudai {
+        width : 45%;
+        padding: 0 7px 0 7px;
+        margin-top: 5px;
+    }
+    .container-items-huongdan {
+        width : 45%;
+        padding: 0 7px 0 7px;
+        margin-top: 5px;
+    }
+    .note {
+        text-align: center;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h3 {
+        font-weight: 550;
+        font-size: 1.7rem;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .buy {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .appstore {
+        border-radius: 10px;
+    }
+    .ggplay {
+        margin-top: 20px;
+        border-radius: 15px;
+    }    
+    .mobile {
+        margin-top: 50px;
+        height: 400px;
+        padding-left:10px;
+    }
+    .about-img {
+        height: 70px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .footer-edit {
+        width: 90%;
+        margin: auto;
+    }
+    .item-footer {
+        font-size: 12px;
+    }
+    .lienket {
+        width: 95%;
+        margin: auto;
+    }
+    .lk-img {
+        border-radius: 5px;
+        width: 25%;
+    } 
+    h2 {
+        font-size: 23px;
+    }
+    .form {
+        height: 700px;
+        margin-top: -60px;
+
+    }
+    .form-dki {
+        height: 800px;
+        width: 40%;
+        margin: auto;
+        margin-top: -60px;
+    }
+    .dichvu {
+        width: 50%;
+    }
+    .img-dichvu {
+        width: 50px;
+        height: 50px;
+    }
+    .lk-img {
+        width: 18%;
+    }
+    .jjk-item {
+        width: 25%;
+    }
+    .jjk-item {
+        padding: 0 10px 0 10px;
+        margin-top: 10px;
+    }
+    .timkiem-text1 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .timkiem-text {
+        font-size: 15px;
+    }
+    .list2 {
+        display: none;
+    }
+    .nhap {
+        width: 400px;
+    }
+    .name {
+        height: 130px;
+    }
+    .name-text {
+        color: white;
+        font-size: 20px;
+        font-weight: 550;
+        padding: 50px;
+    }
+    .goiy-order {
+        height: 350px;
+    }
+    .price-order {
+        width: 90%;
+    }
+    .tuvan {
+        width: 90%;
+    }
+    .btn-order {
+        width: 50%;
+    }
+    .order-login {
+        height: 200px;
+    }
+    .slides {
+        height: 250px;
+    }
+    .order-list {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width : 900px) {
+    .container-items {
+        width : 20%;
+        padding: 0 10px 0 10px;
+        margin-top: 5px;
+    }
+    .container-items-uudai {
+        width : 45%;
+        padding: 0 7px 0 7px;
+        margin-top: 5px;
+    }
+    .container-items-huongdan {
+        width : 40%;
+        padding: 0 7px 0 7px;
+        margin-top: 5px;
+        padding-left: 30px;
+    }
+    .note {
+        text-align: center;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h3 {
+        font-weight: 550;
+        font-size: 1.7rem;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .buy {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .appstore {
+        border-radius: 10px;
+    }
+    .ggplay {
+        margin-top: 20px;
+        border-radius: 15px;
+    }    
+    .mobile {
+        margin-top: 50px;
+        height: 400px;
+        padding-left:10px;
+    }
+    .about-img {
+        height: 70px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .footer-edit {
+        width: 90%;
+        margin: auto;
+    }
+    .item-footer {
+        font-size: 12px;
+    }
+    .lienket {
+        width: 95%;
+        margin: auto;
+    }
+    .lk-img {
+        border-radius: 5px;
+        width: 25%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .form {
+        height: 650px;
+        width: 70%;
+        margin: auto;
+    }
+    .form-dki {
+        height: 750px;
+        width: 70%;
+        margin: auto;
+    }
+    .dichvu {
+        width: 100%;
+        margin-top: 2px;
+    }
+    .img-dichvu {
+        width: 40px;
+        height: 40px;
+    }
+    .dichvu-list-item {
+        width: 40%;
+        margin: auto;
+    }
+    .jjk-item {
+        width: 20%;
+    }
+    .jjk-name {
+        font-size: 10px;
+    }
+    .jjk-price {
+        font-size: 10px;
+    }
+    .jjk-text {
+        font-size: 14px;
+    }
+    .jjk-item {
+        padding: 0 10px 0 10px;
+        margin-top: 10px;
+    }
+    .danhmuc {
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .danhmuc-text {
+        font-size: 8px;
+    }
+    .product-list {
+        width: 90%;
+        margin: auto;
+    }
+    h1 {
+        font-size: 17px;
+    }
+    .header-option {
+        width: 90%;
+        height: 40px;
+        margin: auto;
+        margin-top: 10px;
+        box-shadow: 0 0 0 1px black;
+    }
+    .option-edit {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-h3 {
+        margin-top: 10px;
+    }
+    .nhap {
+        width: 30%;
+        margin: auto;
+        margin-top: 5px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    .list {
+        font-size: 12px;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .nhap {
+        width: 200px;
+    }
+    .name-text {
+        font-size: 20px;
+        padding: 50px;
+    }
+    .goiy-order {
+        height: 300px;
+    }
+    .goiy-order-edit {
+        width: 80%;
+    }
+    .hdmh {
+        width: 80%;
+        padding-left: 20px;
+    }
+    .slides {
+        height: 170px;
+    }
+}
+@media screen and (max-width : 450px) {
+    .container-items {
+        width : 30%;
+        padding: 0 5px 0 5px;
+        margin-top: 5px;
+    }
+    .container-list-item {
+        padding-left: 10px;
+    }
+    .welcome-gt {
+        width: 100%;
+        height: 150px;
+        margin: auto;
+        background-color: #eb6c4c;
+    }
+    .gt-text {
+        width: 85%;
+        margin: auto;
+        color: white;
+        font-size: 12px;
+        padding: 20px;
+    }
+    .img-gt {
+        width: 50px;
+        height: 50px;
+    }
+    .lienhe-text {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .container-items-uudai {
+        width : 45%;
+        padding: 0 7px 0 7px;
+        margin-top: 5px;
+    }
+    .order-list {
+        padding-left: 2px;
+    }
+    .container-items-huongdan {
+        width : 45%;
+        padding: 0 7px 0 7px;
+        margin-top: 5px;
+    }
+    .note {
+        text-align: center;
+        padding: 5px;
+        font-size: 9px;
+    }
+    h3 {
+        font-weight: 550;
+        font-size: 1.2rem;
+    }
+    .text {
+        font-size: 10px;
+    }
+
+    .img-logo {   
+        margin-top: 5px;
+        height: 40px;
+        width: 120px;
+    }
+    .icon-bar {
+        background-color: black;
+        margin-top: 13px;
+        height: 20px;
+        width: 20px;
+    }
+    h2 {
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .login-text {
+        font-size: 13px;
+    }
+    a {
+        font-weight: 600;
+        font-size: 10px;
+    } 
+    .container-button {
+        height: 20px;
+        width: 50px;
+        border-radius: 10px;
+        background-color: rgb(252, 232, 236);
+    }
+    .buy {
+        padding: 4px;
+        font-size: 7px;
+    }
+    .code {
+        border-radius: 10px;
+    }
+    .About {
+        width: 85%;
+    }
+    .appstore {
+        border-radius: 5px;
+    }
+    .ggplay {
+        margin-top: 5px;
+        border-radius: 15px;
+    }    
+    .about-item-img2 {
+        margin-top: 7px;
+    }
+    .mobile {
+        margin-top: 70px;
+        height: 200px;
+    }
+    .about-img {
+        height: 45px;
+        width: 130px;
+        margin-top: 20px;
+    }
+    .item-footer {
+        font-size: 10px;
+    }
+    .dcm {
+        font-weight: 600;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .footer-edit {
+        width: 100%;
+        margin: auto;
+    }
+    .lienket {
+        width: 90%;
+        margin: auto;
+    }
+    .lk-img {
+        border-radius: 5px;
+        width: 30%;
+    }
+    .footer-list-information {
+        width:45%;
+        margin: auto;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+    .form {
+        height: 600px;
+        width: 90%;
+        margin: auto;
+    }
+    .form-dki {
+        height: 750px;
+        width: 90%;
+        margin: auto;
+    }
+    .dichvu {
+        width: 100%;
+        margin-top: -10px;
+    }
+    .img-dichvu {
+        width: 30px;
+        height: 30px;
+    }
+    .dichvu-list-item1 {
+        width: 100%;
+        margin: auto;
+    }
+    .dichvu-list-item {
+        width: 100%;
+        margin: auto;
+    }
+    .lienhe {
+        height: 100px;
+    }
+    .lienhe-hello {
+        padding: 20px;
+    }
+    .login-input {
+        width: 85%;
+        height: 40px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    .product-items {
+        display: none;
+    }
+    .jjk-text {
+        font-size: 12px;
+    }
+    .product-items2 {
+        width: 90%;
+    }
+    .jjk-item {
+        width: 30%;
+        padding: 0 5px 0 5px;
+        margin-top: 10px;
+    }
+    .space-top {
+        margin-top: 10px;
+    }
+    .list2 {
+        display: none;
+    }
+    .header-option {
+        height: 35px;
+    }
+    .nhap {
+        width: 170px;
+    }
+    .name {
+        height: 100px;
+    }
+    .name-text {
+        color: white;
+        font-size: 15px;
+        font-weight: 550;
+        padding: 40px;
+    }
+    .goiy-order {
+        padding: 1px;
+    }
+    .order-list-item {
+        width: 100%;
+    }
+    .order-login {
+        display: none;
+    }
+    .hdmh {
+        display: none;
+    }
+    .kaka{
+        display: none;
+    }
+    .tuvan {
+        margin-top: 10px;
+    }
+    .goiy-order {
+        height: 400px;
+    }
+    .jjk-item {
+        margin-top: 15px;
+    }
+    
+    .slides {
+        height: 80px;
+        margin-top: 2px;
+    }
+}
